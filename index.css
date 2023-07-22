@@ -1,0 +1,32 @@
+
+body {
+   display: flex;
+    justify-content: center;
+  align-content: center;
+}
+
+
+.disc {
+   
+border:5px rgb(7, 239, 53) solid;
+margin-inline:10px;
+padding-inline: 10px;
+font-size: 24px;
+line-height: 2;
+
+
+}
+
+.heading {
+    text-align: center;
+    line-height: 0%;
+}
+
+.aspiration {
+    text-transform:capitalize;
+}
+
+ul li {
+    font-size: 18px;
+}
+
