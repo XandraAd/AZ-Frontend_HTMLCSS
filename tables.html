@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML tables</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        table {
+            background-color: rgb(65, 89, 111);
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        caption {
+            
+            font-size: 64px;
+            text-transform: uppercase;
+        }
+        
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+           text-align: center;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        th:hover {
+           background-color: white; 
+           font-size: large;
+           color: black;
+        }
+        
+        th {
+            background-color: #3074ce;
+            text-transform: uppercase;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #24292f;
+        }
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+       tfoot {
+        border: 2px solid black;
+       }
+
+       tfoot:hover {
+        background-color: white; 
+           font-size: large;
+           color: black;
+       }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>tables</h1>
+    </header>
+    <main>
+      
+        <table>
+            <caption>Customer Data</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Name</th>
+                    <th>Country</th>
+                    <th>City</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Micheal </td>
+                    <td>Quaye</td>
+                    <td>Ghana</td>
+                    <td>Accra</td>
+                    <td>39</td>
+                </tr>
+                <tr>
+                    <td>Sacha </td>
+                    <td>Smith</td>
+                    <td>Great Britian</td>
+                    <td>London</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>Marcus</td>
+                    <td>Berger</td>
+                    <td>Germany</td>
+                    <td>Hamburg</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>Kyle </td>
+                    <td>Johnson</td>
+                    <td>United States Of America</td>
+                    <td>Los Angeles</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>Sakura</td>
+                    <td>Yamaha</td>
+                    <td>Japan</td>
+                    <td>Tokyo</td>
+                    <td>65</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">Total Number = 5</td>
+                    
+                    
+                </tr>
+            </tfoot>
+           
+            
+            
+
+        </table>
+    </main>
+    
+</body>
+</html>
