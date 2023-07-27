@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML tables</title>
+    <title> Table HTML</title>
+    
     <style>
         body{
             background-color: black;
@@ -13,6 +14,7 @@
             background-color: rgb(65, 89, 111);
             width: 100%;
             border-collapse: collapse;
+        
         }
 
         caption {
@@ -22,7 +24,7 @@
         }
         
         th, td {
-            border: 1px solid black;
+            border: 1px solid  rgb(7, 239, 53);
             padding: 10px;
            text-align: center;
            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -32,10 +34,17 @@
            font-size: large;
            color: black;
         }
+
+        td:hover {
+            font-size: x-large;
+            font-style: italic;
+            background-color: rgb(64, 97, 241);
+        }
         
         th {
-            background-color: #3074ce;
+            background-color: rgb(64, 97, 241);
             text-transform: uppercase;
+            color: rgb(7, 239, 53) ;
         }
         
         tr:nth-child(even) {
@@ -47,13 +56,19 @@
         }
 
        tfoot {
-        border: 2px solid black;
+        border: 2px solid  rgb(7, 239, 53);
        }
 
        tfoot:hover {
         background-color: white; 
            font-size: large;
            color: black;
+       }
+
+       footer {
+        margin: 10%;
+        display: flex;
+        justify-content: center;
        }
 
         
@@ -125,6 +140,9 @@
 
         </table>
     </main>
+    <footer>
+        <p>coded by Sandra Opare &copy;2023</p>
+    </footer>
     
 </body>
 </html>

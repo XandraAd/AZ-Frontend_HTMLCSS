@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Second HTML Code</title>
+    <title>Semantics HTML</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <header>
+   
+    <header class="heading disc" >
         <h1>My Webpage</h1>
         <nav>
             <p>
-                Jump to:
-                <a href="#section1">Reason</a>|<a href="#softskills">Soft skills</a> |
+                
+                <a href="#section1"> Reason </a>|<a href="#softskills"> Soft skills </a> |
             </p>
         </nav>
     </header>
@@ -24,31 +26,32 @@
 
 
             <p>
-                I am a vibrant and fun-loving individual with a genuine passion for exploring new experiences and
-                adventures. Curiosity is my driving force, and I thrive on embracing opportunities that allow me to step
+                I am a vibrant and fun-loving individual with a genuine passion for exploring new experiences and 
+                adventures.<br> Curiosity is my driving force, and I thrive on embracing opportunities that allow me to step
                 out of my comfort zone and venture into uncharted territories. <br>
                 With an open mind and an adventurous spirit, I eagerly seek out new challenges and opportunities for
-                personal growth. Whether it's learning a new language, or immersing myself in diverse cultures, I find
+                personal growth. <br> Whether it's learning a new language, or immersing myself in diverse cultures, I find
                 joy in discovering the richness and beauty that the world has to offer. <br>
                 My love for exploration extends beyond just travel; I am equally enthusiastic about exploring new ideas
-                and concepts. I have an insatiable thirst for knowledge and continuously seek to expand my horizons
+                and concepts. I have an insatiable thirst for knowledge and continuously seek <br> to expand my horizons
                 through reading, attending workshops, and engaging in thought-provoking discussions. <br>
                 Building connections with people from various backgrounds is something I deeply cherish. I believe that
                 each person has a unique story to tell, and I delight in learning from others' experiences and
-                perspectives. These interactions enrich my understanding of the world and contribute to my personal
+                perspectives. <br> These interactions enrich my understanding of the world and contribute to my personal
                 growth. <br>
                 Creativity plays a significant role in my life, and I often find joy in expressing myself through
-                various forms of art, whether it be writing, painting, or photography. This outlet allows me to capture
+                various forms of art, whether it be writing, painting, or photography. <br> This outlet allows me to capture
                 and share the beauty and emotions that surround us. <br>
 
                 Overall, I approach life with a sense of wonder and excitement, embracing each day as an opportunity to
-                learn, grow, and make cherished memories. My adventurous and fun-loving nature fuels my drive to live
+                learn, grow, and make cherished memories. <br> My adventurous and fun-loving nature fuels my drive to live
                 life to the fullest, embracing every moment with enthusiasm and an eagerness to explore the endless
                 possibilities that life has to offer.
             </p>
         </section>
         <!-- The three favorite hobbies-->
-        <section>
+        <section id="fav">
+            <h2>My 3 Favorite Hobbies</h2>
             <ol>
                 <li>Reading</li>
                 <li>Cooking</li>
@@ -58,17 +61,18 @@
 
 
         <!-- hyperlink that leads to a website-->
-        <section>
-            <div>
-                <h1>
-                About me:
+        <section >
+          <section class="linkedin">
+                <h2>
+                More about me:
                     <a href="https://www.linkedin.com/in/sandra-opare-twum" />
                     LinkedIn Account
                     </a>
-                </h1>
-            </div>
+                </h2>
+            </section>
+           
             <!-- Anchor element for navigation -->
-            <div>
+            <section>
                 <h2 id="section1">Why I want to be Full-stack developer?</h2>
 
                 <ol>
@@ -259,40 +263,45 @@
                         </ul>
                     </li>
                 </ol>
+                </section>
 
 
 
 
         </section>
+ 
         <!-- Multimedia content section -->
         <section>
             <div>
-                <img src="./image/programming.jpg" alt="computer programming">
+                <img src="programming.jpg" alt="computer programming" width="50%">
             </div>
             <div>
 
-                <h1>Enjoy this music</h1>
+                <h1 class="heading">Enjoy this music</h1>
                 <!-- YouTube favorite songs -->
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/918oGJFtjjw"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kFD_yJvqeGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/d9EUNQsy1TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                https://youtu.be/918oGJFtjjw
+                
 
 
 
             </div>
         </section>
-        <p>
-            Jump to: <a href="#intro">Introduction</a>|
-            <a href="#section1">Reason</a>|<a href="#softskills">Soft skills</a> |
-        </p>
+        <section id="intro">
+            <p>
+                Jump to: <a href="#intro">Introduction</a>|
+                <a href="#section1">Reason</a>|<a href="#softskills">Soft skills</a> |
+            </p>
+        </section>
+       
     </main>
     <!-- Footer section -->
     <footer>
         <p>coded by Sandra Opare &copy;2023</p>
     </footer>
+
 </body>
 
 </html>
