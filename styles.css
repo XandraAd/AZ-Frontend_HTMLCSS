@@ -1,0 +1,21 @@
+title {
+    background-color: brown;
+   
+}
+
+ul {
+    border: 1px solid ;
+    padding: 10px;
+    
+}
+
+ul li {
+    font-weight: 600;
+    color: crimson;
+}
+
+li:hover {
+    background-color: black;
+    color: blue;
+    cursor: pointer;
+}
